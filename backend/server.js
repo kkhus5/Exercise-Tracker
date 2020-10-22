@@ -12,7 +12,7 @@ require('dotenv').config();
 // this is how we create our Express server
 // 5000 is the port our server will be on
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 // this is our middleware
 // the second line will allow us to parse our json
